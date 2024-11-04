@@ -1,3 +1,4 @@
-# Data_Structures_Examples_In_C
+# Data Structures Using C by [Reema Thareja](https://www.linkedin.com/in/reema-thareja-9986a014/?originalSubdomain=in)
 
+## You can access the book by clicking on the picture👇.
 [<img src="https://github.com/Ozlem-goksun/Data_Structures_Examples_In_C/blob/main/51S%2BtOq9jEL._UF1000%2C1000_QL80_.jpg" alt="prototype1" style="max-width: 100%; height: auto;">](https://www.amazon.com/Data-Structures-Using-Reema-Thareja/dp/0198099304/ref=sr_1_2?_encoding=UTF8&dib=eyJ2IjoiMSJ9.7TOxDh6BZj1t177yI6vVlBQUAckgxO-8IIHMXywZaQK0MhtD27Y2IlpX5EoCaO8cHXtJrFCqwZlnrSNlp_fWgqbSqMqCq777F924eIq0Pbia8t84izHLJ4fHzXmsmxrSn1s-pZgCsNsLTs3_nZPb2DRSnu1zWwkVFGtPagOk8ylNxetoIRR8Q-BoHV9Le3i000hKRXwslT9dnqhHcGCOKmf8wDbmfVQZVY93FltzQis.QcZ-6fbDIBPgRsUwCMz40MCngR_FJxVNnvRA2OUcVgM&dib_tag=se&keywords=B00357V8ME&qid=1730705646&s=books&shoppingPortalEnabled=true&sr=1-2)
