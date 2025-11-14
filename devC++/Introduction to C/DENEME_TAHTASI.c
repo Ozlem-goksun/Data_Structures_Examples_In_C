@@ -1,14 +1,18 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
-	int arr[20], i;
+	int i, n, nums[20], sum = 0;
 	
-	for(i = 0; i < 20; i++)
+	printf("Toplanacak eleman sayisini giriniz : ");
+	scanf("%d", &n);
+	
+	for (i = 0; i < n; i++)
 	{
-		arr[i] = i+2;
-		printf("%d\n", arr[i]);
+		printf("%d. degerinizi giriniz : ", i + 1);
+		scanf("%d", &nums[i]);
+		sum += nums[i];
 	}
 	
-	
+	printf("%d", sum);
 }
