@@ -2,34 +2,34 @@
 
 int main()
 {
-	int i, n, pos;
+	int i, arr1[3], arr2[3], arrM[6];
 	
-	printf("dizinizin boyutu: ");
-	scanf("%d", &n);
+	printf("ilk dizinin elemanlarını giriniz: \n");
 	
-	int arr[n];
 	
-	for (i = 0; i < n; i++)
+	for(i = 0; i < 3; i++)
+	{
+		printf("%d. eleman: ", i+1);
+		scanf("%d", &arr1[i]);
+		arrM[i] = arr1[i];
+	}
+	
+	printf(" ikinci dizinin elemanlarını giriniz: \n");
+	
+	for(i = 0; i < 3; i++)
 	{
 		printf("%d. eleman: ", i + 1);
-		scanf("%d", &arr[i]);
+		scanf("%d", &arr2[i]);
+		arrM[i+3] = arr2[i];
 	}
 	
-	printf("diziden silinecek elemanin pozisyonu: ");
-	scanf("%d", &pos);
+	printf("iki dizinin birleştirilmiş hali:\n");
 	
-	for (i = pos; i < n-1 ; i++)
+	for(i = 0; i < 6; i++)
 	{
-		arr[i] = arr[i + 1];
+		printf("%d. eleman: %d \n", i + 1, arrM[i]);
 	}
 	
-	n = n - 1;
 	
-	printf("dizinin son hali: \n");
-	
-	for(i = 0; i < n; i++)
-	{
-		printf("%d. eleman = %d\n", i + 1, arr[i]);
-	}
 	
 }
