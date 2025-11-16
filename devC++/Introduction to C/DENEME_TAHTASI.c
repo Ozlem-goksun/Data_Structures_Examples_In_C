@@ -1,20 +1,14 @@
 #include <stdio.h>
 
-double getSquare(double *ptr);
-
-
 int main()
 {
-	double number, result;
-	printf("Enter a number: ");
-	scanf("%lf", &number);
+	int arr[3] = {1,2,3};
 	
-	result = getSquare(&number);
-	printf("Square of number : %.2f",result);
-}
-
-
-double getSquare(double *ptr)
-{
-	return (*ptr) * (*ptr);
+	
+	
+	printf("arrayin adresi: %x \n", arr );
+	printf("ilk elemanin adresi : %x\n", &arr[0]);
+	printf("ilk elemanin degeri : %x", &arr+1);
+	
+	
 }
