@@ -1,14 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
+
+double getSquare(double *ptr);
+
 
 int main()
 {
-	int age = 50;
-	int *pAge = &age;
+	double number, result;
+	printf("Enter a number: ");
+	scanf("%lf", &number);
 	
-	
-	printf("value of age: %d\n", age);
-	printf("address of age: %p\n", &age);
-	
-	printf("value of pAge : %p\n", pAge);
-	printf("value at stored address: %d", *pAge);
+	result = getSquare(&number);
+	printf("Square of number : %.2f",result);
+}
+
+
+double getSquare(double *ptr)
+{
+	return (*ptr) * (*ptr);
 }
